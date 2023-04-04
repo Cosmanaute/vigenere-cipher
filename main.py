@@ -6,7 +6,7 @@ def run():
     print(kryptertTekst)
 
 def finnePosisjon(bokstav):    
-    alfabet = "abcdefghijklmnopqrstuvwxyz" #bruker ascii library til hente alfabetet i lowercase
+    alfabet = "abcdefghijklmnopqrstuvwxyz" 
     plassering = alfabet.index(bokstav.lower()) #finner laveste index
     return plassering
 
